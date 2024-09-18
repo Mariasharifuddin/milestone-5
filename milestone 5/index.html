@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Resume Builder</h1>
+    
+    <!-- Resume Form -->
+    <form id="resumeForm">
+        <label for="username">Username:</label>
+        <input type="text" id="username" required><br>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" required><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" required><br>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" required><br>
+
+        <label for="education">Education:</label>
+        <textarea id="education" required></textarea><br>
+
+        <label for="experience">Experience:</label>
+        <textarea id="experience" required></textarea><br>
+
+        <label for="skills">Skills:</label>
+        <textarea id="skills" required></textarea><br>
+
+        <button type="submit">Generate Resume</button>
+    </form>
+
+    <!-- Resume Output Section -->
+    <div id="resumeOutput">
+        <!-- Generated resume and links will appear here -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+        
